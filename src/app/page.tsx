@@ -28,7 +28,7 @@ export default function Home() {
         Welcome to our advanced note-taking app! Powered by NextJS, OpenAI, Prisma, MongoDB, Pinecone, and Clerk, it{"'"}s a seamless blend of cutting-edge tech.
       </p>
       <Button size={"lg"} asChild>
-        <Link href={"/"}>Open</Link>
+        <Link href={"/notes"}>Open</Link>
       </Button>
     </main>
   )

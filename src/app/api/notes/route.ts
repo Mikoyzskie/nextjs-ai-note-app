@@ -151,8 +151,6 @@ export async function DELETE(req: Request){
             await notesIndex.deleteOne(id)
         })
 
-        
-
         return Response.json({message: "Note deleted"},{status: 200});
 
     } catch (error) {

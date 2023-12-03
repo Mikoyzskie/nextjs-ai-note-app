@@ -23,7 +23,6 @@ export async function getEmbedding(text: string){
     }
 
     console.log(embedding);
-    
 
     return embedding
 }
